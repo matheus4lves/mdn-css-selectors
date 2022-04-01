@@ -1,0 +1,10 @@
+@import "./base/_global.css";
+
+h2 + p {
+  color: red;
+}
+
+ul.list > li {
+  list-style: none;
+  border-bottom: 1px solid grey;
+}
