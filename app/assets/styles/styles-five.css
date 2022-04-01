@@ -1,0 +1,32 @@
+@import "./base/_global.css";
+
+nav:nth-child(2) ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav:nth-child(2) li {
+  margin: 0 0 0.5em;
+}
+
+nav:nth-child(2) a {
+  display: block;
+  padding: 0.5em;
+}
+
+nav:nth-child(2) a {
+  border: 5px solid grey;
+}
+
+nav:nth-child(2) a[title] {
+  border-color: pink;
+}
+
+nav:nth-child(2) a[href*="contact"] {
+  border-color: orange;
+}
+
+nav:nth-child(2) a[href^="https"] {
+  border-color: green;
+}
